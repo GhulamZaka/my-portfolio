@@ -54,12 +54,19 @@ a {
     background-position: center;
     margin-bottom: 10px;
 }
+.hero img {
+    height: 250px;
+    width: 250px;
+    Float: right;
+    margin-right: 20px;
+}
 .hero h2 {
     color: #121213;
     border: none;
     font-size: 50px;
     float: right;
-    padding: 175px 150px 0  0;
+    padding-top: 175px;
+    padding-right: 50px;
 
 
 }
@@ -68,13 +75,14 @@ a {
 /* ABOUT ME STYLES START */
 
 .intro {
-   
     height: 400px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 10px;
     justify-content: center;
+    margin-bottom: 10px;
+    border: 5px seagreen;
+    
     
 }
    
@@ -84,7 +92,7 @@ a {
     text-align: right;
     border-right: 5px solid;
     color: #0d0d0e;
-    padding: 50px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
     width: 30%;
     display: inline-block;
 
@@ -93,7 +101,7 @@ a {
     display: flex;
     flex-direction: row;
     width: 70%;
-    padding: 50px 0 0 50px;
+    padding: 30px 0 0 50px;
     font-size: 25px;
 
 }
@@ -103,12 +111,12 @@ a {
 
 .work {
     height: 900px;
-
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
     justify-content: center;
+    
 
 }
 
@@ -119,7 +127,7 @@ a {
     text-align: right;
     border-right: 5px solid;
     color:#0d0d0e;
-    padding: 50px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
     display: inline-block;
     margin-bottom: 10px;
  
@@ -134,15 +142,23 @@ image {
     height: 400px;
     width: 1000px;
     padding: 50px 0 0 50px;
+    position: ;
     
 
+}
+.image h3, .image p {
+font-size: 50px;
+padding-top: 0;
+position: ;
+left: px;
+bottom: px;
+color: #ffffff;
 }
 
 .text h3, .text p {
 font-size: 50px;
 position: relative;
-left: 50px;
-bottom: 220px;
+padding-left: 50px;
 color: #ffffff;
 
 }
@@ -162,7 +178,7 @@ color: #ffffff;
    padding-bottom: 50px;
    margin-left: 50px;
    align-items: center;
-   to
+  
     
 }
 
