@@ -4,15 +4,15 @@
     box-sizing: border-box;
   }
 body {
-    /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
+   
+    color: #0d0d0e;
     font-family: Helvetica, Arial, sans-serif;
   }
   /* HEADER STYLES START */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #5dda9c;
     color: #ffffff;
 }
 
@@ -25,7 +25,7 @@ header nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header nav ul {
@@ -38,27 +38,127 @@ header nav ul li {
 }
 
 a {
-    color: #531f1f;
+    color: #3f3e3e;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+
 /* HEADER STYLES END */
 
 /* HERO STYLES START */
 .hero {
     height: 250px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: url("../image/gmz1.jpg");
     background-size: cover;
     background-position: center;
+    margin-bottom: 10px;
 }
-.hero-subtitle {
-    color: #fce138;
+.hero h2 {
+    color: #121213;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    font-size: 50px;
+    float: right;
+   
+   
+
+}
 /* HERO STYLES END */
+
+
+
+.intro {
+    background: #948e8e;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+}
+   
+
+.intro h2 {
+    font-size: 100px;
+text-align: right;
+    border-right: 5px solid;
+    color:#211a83;
+    padding: 10px 20px;
+    width: 30%;
+    display: inline-block;
+
+}
+.intro p {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 10px 0 0 30px;
+    font-size: 25px;
+
+}
+    
+
+ 
+
+
+/* works section style starts */ 
+
+.work {
+    height: 900px;
+    background: #39a6b2;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px 0 10px 0;
+
+}
+
+
+.work h2 {
+    font-size: 100px;
+    width: 30%;
+    text-align: right;
+    border-right: 5px solid;
+    color:#211a83;
+    padding: 0 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+.work img {
+    height: 400px;
+    width: 900px;
+    
+
+  
+}
+
+
+
+/* Contact-me section style starts */ 
+
+
+.contact-me {
+    background: #2a607c;
+    height: 250px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+.contact-me h2 {
+    font-size: 100px;
+    width: 28%;
+    text-align: right;
+    border-right: 5px solid;
+    color:#211a83;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.content {
+    font-size: 25px;
+    text-decoration: underline;
+    color: #0d0d0e;
+}
