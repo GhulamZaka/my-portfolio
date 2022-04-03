@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 body {
-   
+   background-color: #d8d6d6;
     color: #0d0d0e;
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -12,7 +12,7 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #5dda9c;
+    background-color: #883c3c;
     color: #ffffff;
 }
 
@@ -38,7 +38,7 @@ header nav ul li {
 }
 
 a {
-    color: #3f3e3e;
+    color: #f3eded;
     text-decoration: none;
 }
 
@@ -59,30 +59,32 @@ a {
     border: none;
     font-size: 50px;
     float: right;
-   
-   
+    padding: 175px 150px 0  0;
+
 
 }
 /* HERO STYLES END */
 
-
+/* ABOUT ME STYLES START */
 
 .intro {
-    background: #948e8e;
+   
     height: 400px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 10px;
+    justify-content: center;
+    
 }
    
 
 .intro h2 {
     font-size: 100px;
-text-align: right;
+    text-align: right;
     border-right: 5px solid;
-    color:#211a83;
-    padding: 10px 20px;
+    color: #0d0d0e;
+    padding: 50px 20px 20px 20px;
     width: 30%;
     display: inline-block;
 
@@ -91,54 +93,92 @@ text-align: right;
     display: flex;
     flex-direction: row;
     width: 70%;
-    padding: 10px 0 0 30px;
+    padding: 50px 0 0 50px;
     font-size: 25px;
 
 }
     
 
- 
-
-
 /* works section style starts */ 
 
 .work {
     height: 900px;
-    background: #39a6b2;
+
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10px 0 10px 0;
+    margin-bottom: 10px;
+    justify-content: center;
 
 }
 
 
 .work h2 {
     font-size: 100px;
-    width: 30%;
+    width: 26%;
     text-align: right;
     border-right: 5px solid;
-    color:#211a83;
-    padding: 0 20px;
+    color:#0d0d0e;
+    padding: 50px 20px 20px 20px;
     display: inline-block;
     margin-bottom: 10px;
+ 
 
 }
-.work img {
+image {
     height: 400px;
-    width: 900px;
+    width: 1000px;
+    
+}
+.image img {
+    height: 400px;
+    width: 1000px;
+    padding: 50px 0 0 50px;
     
 
-  
 }
 
+.text h3, .text p {
+font-size: 50px;
+position: relative;
+left: 50px;
+bottom: 220px;
+color: #ffffff;
 
+}
+
+.small {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.small img {
+    height: 250px;
+    width: 500px;
+   position: relative;
+   padding-left: 25px ;
+   padding-bottom: 50px;
+   margin-left: 50px;
+   align-items: center;
+   to
+    
+}
+
+.textt h3, .textt p {
+font-size: 25px;
+position: absolute;
+left: px;
+bottom: px;
+color: #0e0303;
+}
+
+    
 
 /* Contact-me section style starts */ 
-
-
 .contact-me {
-    background: #2a607c;
+    
     height: 250px;
     display:flex;
     flex-wrap: wrap;
@@ -152,7 +192,7 @@ text-align: right;
     width: 28%;
     text-align: right;
     border-right: 5px solid;
-    color:#211a83;
+    color:#0a0a0a;
     padding: 0 20px;
     display: inline-block;
 }
@@ -160,5 +200,6 @@ text-align: right;
 .content {
     font-size: 25px;
     text-decoration: underline;
-    color: #0d0d0e;
+    color: #f7f7f8;
+    
 }
