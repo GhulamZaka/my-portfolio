@@ -10,11 +10,9 @@ Upon clicking the bigger photo which represents the Run-Buddy page, it navigates
 
 
 The URL of the deployed application:
-
+https://ghulamzaka.github.io/my-portfolio/
 
 
 The URL of the GitHub repository that contains your code:
 https://github.com/GhulamZaka/my-portfolio
-
-Screenshot of the web page.
 
