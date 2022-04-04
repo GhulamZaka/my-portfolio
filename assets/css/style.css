@@ -35,6 +35,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
+    
     margin-left: 25px;
 }
 
@@ -137,36 +138,35 @@ header nav ul li a:hover {
 
 .aaa {
     width: 70%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .i img {
-    height: 450px;
+    height: 400px;
     width: 950px;
     margin-top: 20px;
-  margin-left: 50px;
+    margin-left: 50px;
     border: 5px solid rgb(55, 163, 154);
-  
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
-.i h3, .i p {
- font-size: 50px;
- position: relative;
- left: 70px;
- bottom: 150px;
 
-}
 .t img {
     height: 200px;
     width: 448px;
     margin-top: 20px;
   margin-left: 50px;
     border: 5px solid rgb(55, 163, 154);
-
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
-}
-    
+
+  
+
 
 /* Contact-me section style starts */ 
+
 .contact-me {
     width: 100%;
     height: 250px;
@@ -184,9 +184,7 @@ header nav ul li a:hover {
     color: #0d0d0e;
     padding-right: 30px;
     width: 30%;
-    
-    
-   
+  
 }
 
 .content, .content a {
@@ -194,5 +192,5 @@ header nav ul li a:hover {
     font-size: 25px;
     text-decoration: underline;
     color: #0d0d0e;
-padding-left: 30px;
+    padding-left: 30px;
 }
